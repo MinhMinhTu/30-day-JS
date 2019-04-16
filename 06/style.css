@@ -1,0 +1,38 @@
+body{
+    background-color: orange;
+}
+.wrap{
+    padding: 10px 0;
+    background-color: gray;
+    width: 300px;
+    margin: auto;
+    text-align: center; 
+}
+input.search {
+    width: 245px;
+    padding: 10px;
+    font-size: 20px;
+}
+.wrap_2{
+    margin: auto;
+    width:300px;
+}
+.wrap_2 ul{
+    background-color: white;
+    padding: 0;
+    width: 280px;
+    margin-left: 10px;
+}
+.wrap_2 ul li{
+    list-style-type: none;
+    border-top: 1px solid gray;
+    padding: 10px 20px;
+    position: relative;
+}
+span.left {
+    position: absolute;
+    right: 8px;
+}
+span.highligth {
+    background-color: orange;
+}

@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+:root{
+    --base: #ffc600;
+    --spacing: 50px;
+    --blur:10px
+}
+img{
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur))
+}
+input{
+    width: 100px!important;
+    margin:0 auto;
+}
+span{
+    color: var(--base)
+}
